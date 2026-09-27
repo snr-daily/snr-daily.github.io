@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 514" width="680" height="514" role="img" aria-label="新版 Copilot 的四种工作方式。Chat：即问即答 → Cowork：交代任务，交回成品 → Code：自己动手做工具 → Autopilot：长期自主的数字同事" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="513" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">新版 Copilot 的四种工作方式</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">按自主程度从低到高排列</text>
+<rect x="24" y="94.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="118.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="122.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">1</text>
+<text x="70.0" y="123.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">Chat：即问即答</text>
+<text x="70.0" y="143.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">快速问答、查资料、起草内容，每一轮都由人主导。</text>
+<line x1="47" y1="160.0" x2="47" y2="174.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,170.0 L47,176.0 L51,170.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="179.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="203.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="207.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">2</text>
+<text x="70.0" y="208.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">Cowork：交代任务，交回成品</text>
+<text x="70.0" y="228.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">定义好任务后端到端完成，交回一份完整的成果，比如 RFP 回复、发布材料包、财务结账包。</text>
+<line x1="47" y1="245.0" x2="47" y2="259.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,255.0 L47,261.0 L51,255.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="264.0" width="632" height="82" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="288.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="292.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">3</text>
+<text x="70.0" y="293.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">Code：自己动手做工具</text>
+<text x="70.0" y="313.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">用自然语言描述，Copilot 选择方案并构建应用、看板或自动化流程，在沙箱中运行，可托管在企业</text>
+<text x="70.0" y="332.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">租户内。</text>
+<line x1="47" y1="349.0" x2="47" y2="363.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,359.0 L47,365.0 L51,359.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="368.0" width="632" height="82" rx="8" fill="#eaf2fd" stroke="#2a78d6" stroke-width="1"/>
+<circle cx="47" cy="392.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="396.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">4</text>
+<text x="70.0" y="397.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">Autopilot：长期自主的数字同事</text>
+<text x="70.0" y="417.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">设定名字、角色和目标后持续工作，盯频道、跟进讨论、定期执行任务，几天后还能接着推进，不需要</text>
+<text x="70.0" y="436.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">每一步都下指令。</text>
+<text x="24.0" y="473.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">Chat 与 Cowork 位于 Home 中；微软还计划让 Copilot 自动判断该用哪种方式处理请求。来源：微软官方博客（9 月 25</text>
+<text x="24.0" y="490.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start"> 日）。</text>
+</svg>

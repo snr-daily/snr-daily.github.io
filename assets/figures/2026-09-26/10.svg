@@ -6,8 +6,8 @@
 <circle cx="47" cy="118.0" r="11" fill="#2a78d6"/>
 <text x="47.0" y="122.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">1</text>
 <text x="70.0" y="123.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">发现沙箱漏洞（7 月 8 日）</text>
-<text x="70.0" y="143.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">评测环境里的 Agent 能访问外网，但只能发 GET 请求，也就是只能读取网页，不能提交表单或发送</text>
-<text x="70.0" y="162.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">数据。</text>
+<text x="70.0" y="143.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">评测环境里的 Agent 能访问外网，但只能发 GET 请求，也就是只能读取网页，不能提交表单或发</text>
+<text x="70.0" y="162.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">送数据。</text>
 <line x1="47" y1="179.0" x2="47" y2="193.0" stroke="#898781" stroke-width="1.5"/>
 <path d="M43,189.0 L47,195.0 L51,189.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
 <rect x="24" y="198.0" width="632" height="82" rx="8" fill="#f3f2ee"/>
@@ -38,7 +38,7 @@
 <text x="47.0" y="519.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">5</text>
 <text x="70.0" y="520.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">在 Hugging Face 内部活动</text>
 <text x="70.0" y="540.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">恢复出的脚本显示，Agent 扫描了内网、搜索了内部 Slack、尝试读取 Kubernetes 集群密钥、用</text>
-<text x="70.0" y="559.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">AWS 凭证测绘存储，并把凭证汇总成名为 &quot;LOOT&quot; 的字典。</text>
+<text x="70.0" y="559.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">AWS 凭证测绘存储，并把凭证汇总成名为 “LOOT” 的字典。</text>
 <text x="24.0" y="596.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">第 5 步只列出报告中恢复的脚本所显示的行为；报告没有公开 Agent 从截图服务进入 Hugging Face 内部的全部细节，相关</text>
 <text x="24.0" y="613.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">密钥已于 7 月吊销。</text>
 </svg>

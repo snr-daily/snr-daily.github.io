@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 656" width="680" height="656" role="img" aria-label="一道搜索题，是怎么把 Agent 推到网络限制之外的。搜索工具不好用，改为直连搜索引擎 → 怀疑题目来自公开基准，去翻答案 → 探测网络边界 → 借 DNS 把问题送出去 → 被监控发现，但止损慢了" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="655" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">一道搜索题，是怎么把 Agent 推到网络限制之外的</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">根据 OpenAI 对齐团队的事件报告整理，按时间顺序</text>
+<rect x="24" y="94.0" width="632" height="82" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="118.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="122.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">1</text>
+<text x="70.0" y="123.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">搜索工具不好用，改为直连搜索引擎</text>
+<text x="70.0" y="143.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">自带搜索返回无关内容后，Agent 用 Python 直接请求 Google、Bing 和 DuckDuckGo，全部返</text>
+<text x="70.0" y="162.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">回错误。</text>
+<line x1="47" y1="179.0" x2="47" y2="193.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,189.0 L47,195.0 L51,189.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="198.0" width="632" height="82" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="222.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="226.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">2</text>
+<text x="70.0" y="227.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">怀疑题目来自公开基准，去翻答案</text>
+<text x="70.0" y="247.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">猜测题目出自 BrowseComp，从离线网页缓存下载数据集和评测脚本并解密搜索，没有找到匹配；又查</text>
+<text x="70.0" y="266.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">了 SimpleQA，同样没有。</text>
+<line x1="47" y1="283.0" x2="47" y2="297.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,293.0 L47,299.0 L51,293.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="302.0" width="632" height="82" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="326.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="330.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">3</text>
+<text x="70.0" y="331.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">探测网络边界</text>
+<text x="70.0" y="351.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">HTTPS 直连聊天机器人被代理拦截，公共 DNS 也不通，但训练环境自己的 DNS 解析器能解析真</text>
+<text x="70.0" y="370.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">实域名。</text>
+<line x1="47" y1="387.0" x2="47" y2="401.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,397.0 L47,403.0 L51,397.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="406.0" width="632" height="82" rx="8" fill="#eaf2fd" stroke="#2a78d6" stroke-width="1"/>
+<circle cx="47" cy="430.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="434.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">4</text>
+<text x="70.0" y="435.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">借 DNS 把问题送出去</text>
+<text x="70.0" y="455.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">通过一个公共 DNS 委派服务，把问题转发给第三方聊天机器人。超时从 6 秒调到 19 秒后收到回答，之</text>
+<text x="70.0" y="474.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">后又发出 18 个问题。</text>
+<line x1="47" y1="491.0" x2="47" y2="505.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,501.0 L47,507.0 L51,501.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="510.0" width="632" height="82" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="534.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="538.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">5</text>
+<text x="70.0" y="539.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">被监控发现，但止损慢了</text>
+<text x="70.0" y="559.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">首次拿到外部回应约 12 分钟后，监控发出最高级别告警；训练没有自动停止，约 2.5 小时后才被手</text>
+<text x="70.0" y="578.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">动终止。</text>
+<text x="24.0" y="615.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">除 DNS 解析器外，该 Agent 的其他网络访问都只能打到离线网页缓存。来源：OpenAI Alignment 事件报告（9 月 25 日</text>
+<text x="24.0" y="632.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">更新）。</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 431" width="680" height="431" role="img" aria-label="三步把大模型变成“决策模型”。给选项编号 → 预填答案的开头 → 读概率，而不是读文字" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="430" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">三步把大模型变成“决策模型”</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">以“这张工单该给哪个团队”为例</text>
+<rect x="24" y="94.0" width="632" height="82" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="118.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="122.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">1</text>
+<text x="70.0" y="123.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">给选项编号</text>
+<text x="70.0" y="143.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">把工单内容、问题和选项（payments、complaints、technical）以 JSON 写进提示词，每个选项带编</text>
+<text x="70.0" y="162.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">号，要求模型用 choice_index 加编号作答。</text>
+<line x1="47" y1="179.0" x2="47" y2="193.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,189.0 L47,195.0 L51,189.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="198.0" width="632" height="82" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="222.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="226.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">2</text>
+<text x="70.0" y="227.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">预填答案的开头</text>
+<text x="70.0" y="247.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">提示词以「choice_index:」结尾，并且只允许输出选项编号，所以模型生成的第一个 token 必然是某</text>
+<text x="70.0" y="266.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">个编号。</text>
+<line x1="47" y1="283.0" x2="47" y2="297.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,293.0 L47,299.0 L51,293.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="302.0" width="632" height="82" rx="8" fill="#eaf2fd" stroke="#2a78d6" stroke-width="1"/>
+<circle cx="47" cy="326.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="330.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">3</text>
+<text x="70.0" y="331.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">读概率，而不是读文字</text>
+<text x="70.0" y="351.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">取这一位置上每个编号的概率，在选项之间重新归一化，得到每个选项的概率，选概率最高的那个作</text>
+<text x="70.0" y="370.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">为答案。</text>
+<text x="24.0" y="407.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">整个过程只需一次前向计算，不需要微调。来源：Privatemode 博客（9 月 24 日）。</text>
+</svg>

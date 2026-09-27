@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 467" width="680" height="467" role="img" aria-label="主要模型的输出价格对比。GPT-6 Luna $0.50；GPT-5.6 Luna $1.20；Grok 4.7 $6；GPT-6 Sol $10；GPT-5.6 Terra $12；Claude Opus 5.5 $20；GPT-5.6 Sol $20；Claude Fable 5.1 $50；GPT-6 Astra $50" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="466" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">主要模型的输出价格对比</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">美元 / 百万输出 token</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">本次发布的 GPT-6 Sol 和 Luna</text>
+<rect x="242.25000000000006" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="260.3" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">其他模型</text>
+<g><title>GPT-6 Luna：$0.50</title>
+<path d="M145.5,122.0 h0.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-0.7 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">GPT-6 Luna</text>
+<text x="158.1" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">$0.50</text>
+<g><title>GPT-5.6 Luna：$1.20</title>
+<path d="M145.5,156.0 h7.2 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-7.2 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">GPT-5.6 Luna</text>
+<text x="164.7" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">$1.20</text>
+<g><title>Grok 4.7：$6</title>
+<path d="M145.5,190.0 h52.1 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-52.1 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Grok 4.7</text>
+<text x="209.5" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">$6</text>
+<g><title>GPT-6 Sol：$10</title>
+<path d="M145.5,224.0 h89.5 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-89.5 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="237.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">GPT-6 Sol</text>
+<text x="246.9" y="237.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">$10</text>
+<g><title>GPT-5.6 Terra：$12</title>
+<path d="M145.5,258.0 h108.1 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-108.1 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="271.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">GPT-5.6 Terra</text>
+<text x="265.6" y="271.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">$12</text>
+<g><title>Claude Opus 5.5：$20</title>
+<path d="M145.5,292.0 h182.9 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-182.9 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="305.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Claude Opus 5.5</text>
+<text x="340.4" y="305.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">$20</text>
+<g><title>GPT-5.6 Sol：$20</title>
+<path d="M145.5,326.0 h182.9 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-182.9 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="339.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">GPT-5.6 Sol</text>
+<text x="340.4" y="339.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">$20</text>
+<g><title>Claude Fable 5.1：$50</title>
+<path d="M145.5,360.0 h463.3 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-463.3 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="373.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Claude Fable 5.1</text>
+<text x="620.7" y="373.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">$50</text>
+<g><title>GPT-6 Astra：$50</title>
+<path d="M145.5,394.0 h463.3 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-463.3 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="407.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">GPT-6 Astra</text>
+<text x="620.7" y="407.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">$50</text>
+<line x1="145.46000000000004" y1="114" x2="145.46000000000004" y2="420" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="443.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">数据来源：Simon Willison 9 月 22 日整理的官方价格。GPT-5.6 系列为促销价，11 月起按计划上涨 25%。</text>
+</svg>

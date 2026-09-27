@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 429" width="680" height="429" role="img" aria-label="论文建议的记录方式：把日志放在 Agent 碰不到的地方。Agent 所在的主机 → 独立的可信拦截服务器（Agent 无权控制） → 模型 API" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="428" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">论文建议的记录方式：把日志放在 Agent 碰不到的地方</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">从上到下是一次模型调用经过的路径</text>
+<rect x="24" y="94.0" width="632" height="82" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="118.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="122.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">1</text>
+<text x="70.0" y="123.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">Agent 所在的主机</text>
+<text x="70.0" y="143.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">Agent 和它的工具在这里运行。本机上的会话记录文件能被 Agent 自己删除或改写，也可能被恶意</text>
+<text x="70.0" y="162.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">skill 诱导删除。</text>
+<line x1="47" y1="179.0" x2="47" y2="193.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,189.0 L47,195.0 L51,189.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="198.0" width="632" height="82" rx="8" fill="#eaf2fd" stroke="#2a78d6" stroke-width="1"/>
+<circle cx="47" cy="222.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="226.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">2</text>
+<text x="70.0" y="227.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">独立的可信拦截服务器（Agent 无权控制）</text>
+<text x="70.0" y="247.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">每个请求和响应（流式响应逐段）先写入只能追加的日志，再转发出去；一旦记录失败就停止转发。可</text>
+<text x="70.0" y="266.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">以放在另一台机器上，或者用进程沙箱隔离。</text>
+<line x1="47" y1="283.0" x2="47" y2="297.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,293.0 L47,299.0 L51,293.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="302.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="326.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="330.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">3</text>
+<text x="70.0" y="331.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">模型 API</text>
+<text x="70.0" y="351.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">正常处理请求。即使 Agent 所在的主机被完全攻破，拦截服务器上的记录依然完整。</text>
+<text x="24.0" y="388.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">依据 arXiv 2609.30266 的建议整理。论文同时指出，还需要防止 Agent 绕过这层记录，并核实本地的工具调用确实按记录</text>
+<text x="24.0" y="405.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">执行过。</text>
+</svg>

@@ -1,0 +1,30 @@
+---
+---
+
+@import "minima";
+
+// 配图：由 snr_daily_content/scripts/figures.py 生成的 SVG
+.snr-figure {
+  margin: 1.25em 0 0.75em;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+// 柱状图下方可展开的数据表
+.snr-data {
+  margin: 0 0 1.25em;
+  font-size: 0.875em;
+  color: #52514e;
+
+  summary {
+    cursor: pointer;
+  }
+
+  table {
+    margin-top: 0.5em;
+  }
+}

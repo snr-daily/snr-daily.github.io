@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 331" width="680" height="331" role="img" aria-label="Claude Opus 5.5 相比 Opus 5 各项降价幅度。输入 token 20%（5 → 4 美元）；输出 token 20%（25 → 20 美元）；缓存读取 60%（0.50 → 0.20 美元）；缓存写入 20%（6.25 → 5 美元）；典型工作负载总成本 40%（官方测算）" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="330" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">Claude Opus 5.5 相比 Opus 5 各项降价幅度</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">降幅（%）</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">对实际账单影响最大</text>
+<rect x="176.5" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="194.5" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">其他计价项</text>
+<g><title>输入 token：20%（5 → 4 美元）</title>
+<path d="M159.5,122.0 h109.2 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-109.2 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">输入 token</text>
+<text x="280.7" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">20%（5 → 4 美元）</text>
+<g><title>输出 token：20%（25 → 20 美元）</title>
+<path d="M159.5,156.0 h109.2 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-109.2 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">输出 token</text>
+<text x="280.7" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">20%（25 → 20 美元）</text>
+<g><title>缓存读取：60%（0.50 → 0.20 美元）</title>
+<path d="M159.5,190.0 h335.6 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-335.6 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">缓存读取</text>
+<text x="507.1" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">60%（0.50 → 0.20 美元）</text>
+<g><title>缓存写入：20%（6.25 → 5 美元）</title>
+<path d="M159.5,224.0 h109.2 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-109.2 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="237.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">缓存写入</text>
+<text x="280.7" y="237.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">20%（6.25 → 5 美元）</text>
+<g><title>典型工作负载总成本：40%（官方测算）</title>
+<path d="M159.5,258.0 h222.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-222.4 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="271.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">典型工作负载总成本</text>
+<text x="393.9" y="271.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">40%（官方测算）</text>
+<line x1="159.5" y1="114" x2="159.5" y2="284" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="307.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">价格单位为美元 / 百万 token。数据来源：Anthropic 官方发布页。</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 416" width="680" height="416" role="img" aria-label="一次五问请求的端到端延迟。laya:multilingual 8.1 ms；laya:en 9.6 ms；gliclass 14.7 ms；nli 20.4 ms；decider:0.8b 155 ms；decider:2b 190 ms；TypeSafe Jev 托管 API 236–276 ms" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="415" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">一次五问请求的端到端延迟</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">毫秒，越短越好</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">在 Ollaya 本地运行</text>
+<rect x="171.75" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="189.8" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">托管 API（含网络）</text>
+<g><title>laya:multilingual：8.1 ms</title>
+<path d="M191.9,122.0 h8.2 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-8.2 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">laya:multilingual</text>
+<text x="212.1" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">8.1 ms</text>
+<g><title>laya:en：9.6 ms</title>
+<path d="M191.9,156.0 h10.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-10.4 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">laya:en</text>
+<text x="214.3" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">9.6 ms</text>
+<g><title>gliclass：14.7 ms</title>
+<path d="M191.9,190.0 h18.1 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-18.1 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">gliclass</text>
+<text x="222.0" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">14.7 ms</text>
+<g><title>nli：20.4 ms</title>
+<path d="M191.9,224.0 h26.6 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-26.6 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="237.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">nli</text>
+<text x="230.5" y="237.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">20.4 ms</text>
+<g><title>decider:0.8b：155 ms</title>
+<path d="M191.9,258.0 h228.8 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-228.8 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="271.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">decider:0.8b</text>
+<text x="432.7" y="271.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">155 ms</text>
+<g><title>decider:2b：190 ms</title>
+<path d="M191.9,292.0 h281.3 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-281.3 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="305.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">decider:2b</text>
+<text x="485.2" y="305.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">190 ms</text>
+<g><title>TypeSafe Jev 托管 API：236–276 ms</title>
+<path d="M191.9,326.0 h380.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-380.4 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="339.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">TypeSafe Jev 托管 API</text>
+<text x="584.3" y="339.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">236–276 ms</text>
+<line x1="191.90000000000006" y1="114" x2="191.90000000000006" y2="352" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="375.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">Ollaya 为 RTX 4090 上经 HTTP API 测得的中位数（laya 为 fp16，其余为 fp32）；Jev 为第三方基准测得的托管 API</text>
+<text x="24.0" y="392.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">中位延迟，包含网络开销，柱长取区间中点。两者测试条件不同，只适合比较数量级。数据来源：Ollaya 官网。</text>
+</svg>

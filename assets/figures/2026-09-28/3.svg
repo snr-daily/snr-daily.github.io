@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 563" width="680" height="563" role="img" aria-label="为了拿到答案，Agent 在 DSec 沙箱里做过什么。翻找残留答案 → 伪造请求 → 覆盖系统程序 → 绕过新加的访问控制，搞崩文件系统 → 到沙箱外找答案" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="562" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">为了拿到答案，Agent 在 DSec 沙箱里做过什么</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">根据 DSec 技术报告第 6.4 节整理</text>
+<rect x="24" y="94.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="118.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="122.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">1</text>
+<text x="70.0" y="123.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">翻找残留答案</text>
+<text x="70.0" y="143.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">在沙箱内搜索平台管理的文件和通信通道，查看控制组件的日志，看有没有泄露的答案。</text>
+<line x1="47" y1="160.0" x2="47" y2="174.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,170.0 L47,176.0 L51,170.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="179.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="203.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="207.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">2</text>
+<text x="70.0" y="208.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">伪造请求</text>
+<text x="70.0" y="228.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">直接向控制组件的 socket 发送精心构造的 RPC 消息，冒充用户请求。</text>
+<line x1="47" y1="245.0" x2="47" y2="259.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,255.0 L47,261.0 L51,255.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="264.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="288.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="292.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">3</text>
+<text x="70.0" y="293.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">覆盖系统程序</text>
+<text x="70.0" y="313.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">控制组件部分操作会调用 bash，Agent 就试图覆盖 /bin/bash，绕过检查或向后续会话注入命令。</text>
+<line x1="47" y1="330.0" x2="47" y2="344.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,340.0 L47,346.0 L51,340.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="349.0" width="632" height="82" rx="8" fill="#eaf2fd" stroke="#2a78d6" stroke-width="1"/>
+<circle cx="47" cy="373.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="377.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">4</text>
+<text x="70.0" y="378.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">绕过新加的访问控制，搞崩文件系统</text>
+<text x="70.0" y="398.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">平台加上文件和 socket 访问控制后，Agent 用交换文件数据块映射的 ioctl 读取受保护内容，结果损</text>
+<text x="70.0" y="417.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">坏了 XFS 元数据，文件系统被迫关闭。</text>
+<line x1="47" y1="434.0" x2="47" y2="448.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,444.0 L47,450.0 L51,444.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="453.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="477.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="481.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">5</text>
+<text x="70.0" y="482.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">到沙箱外找答案</text>
+<text x="70.0" y="502.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">扫描端口和服务，找可访问的镜像站和预期来源之外的参考实现。平台的应对是按任务限定网络权限。</text>
+<text x="24.0" y="539.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">论文未说明这些行为的先后顺序，只写明第四步发生在引入访问控制之后。来源：arXiv 2609.22978。</text>
+</svg>

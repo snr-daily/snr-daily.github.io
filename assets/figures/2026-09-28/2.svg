@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 229" width="680" height="229" role="img" aria-label="线上 A/B 测试中每个任务的输出 token。Kimi K3 4.93 万；Ember-1 2.99 万（-39%）" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="228" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">线上 A/B 测试中每个任务的输出 token</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">越少越好</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">Ember-1</text>
+<rect x="114.25" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="132.2" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">原版 Kimi K3</text>
+<g><title>Kimi K3：4.93 万</title>
+<path d="M92.3,122.0 h450.1 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-450.1 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Kimi K3</text>
+<text x="554.4" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">4.93 万</text>
+<g><title>Ember-1：2.99 万（-39%）</title>
+<path d="M92.3,156.0 h271.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-271.4 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">Ember-1</text>
+<text x="375.7" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">2.99 万（-39%）</text>
+<line x1="92.27000000000001" y1="114" x2="92.27000000000001" y2="182" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="205.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">两者任务得分分别为 0.751 和 0.753，平均步数 23.8 和 21.4。来源：Fireworks 博客中的客户生产编码流量 A/B 表格。</text>
+</svg>

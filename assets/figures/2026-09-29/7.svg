@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 544" width="680" height="544" role="img" aria-label="Open Agent Safety Platform 的两层防护。运维方定义策略 → OpenShell 运行前验证 → 沙箱内运行，全程记录 → Sentry 在 DPU 上带外监控 → 越界即隔离" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="543" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">Open Agent Safety Platform 的两层防护</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">根据 NVIDIA 新闻稿和技术博客整理</text>
+<rect x="24" y="94.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="118.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="122.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">1</text>
+<text x="70.0" y="123.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">运维方定义策略</text>
+<text x="70.0" y="143.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">规定 Agent 可以访问的文件、网络、工具、进程和凭据。</text>
+<line x1="47" y1="160.0" x2="47" y2="174.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,170.0 L47,176.0 L51,170.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="179.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="203.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="207.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">2</text>
+<text x="70.0" y="208.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">OpenShell 运行前验证</text>
+<text x="70.0" y="228.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">在 Agent 启动前检查策略，确认它不会越出运维方的意图。</text>
+<line x1="47" y1="245.0" x2="47" y2="259.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,255.0 L47,261.0 L51,255.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="264.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="288.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="292.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">3</text>
+<text x="70.0" y="293.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">沙箱内运行，全程记录</text>
+<text x="70.0" y="313.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">OpenShell 在 CPU 上以内核级隔离运行 Agent，追踪每个动作并执行策略。</text>
+<line x1="47" y1="330.0" x2="47" y2="344.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,340.0 L47,346.0 L51,340.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="349.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="373.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="377.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">4</text>
+<text x="70.0" y="378.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">Sentry 在 DPU 上带外监控</text>
+<text x="70.0" y="398.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">BlueField-4 位于节点通往模型的唯一路径上，Agent 无法看到或触及，持续比对其行为与策略。</text>
+<line x1="47" y1="415.0" x2="47" y2="429.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,425.0 L47,431.0 L51,425.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="434.0" width="632" height="63" rx="8" fill="#eaf2fd" stroke="#2a78d6" stroke-width="1"/>
+<circle cx="47" cy="458.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="462.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">5</text>
+<text x="70.0" y="463.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">越界即隔离</text>
+<text x="70.0" y="483.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">Agent 试图越出软件边界时，Sentry 在毫秒级将其隔离并停止。</text>
+<text x="24.0" y="520.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">OpenShell 可单独使用，Sentry 是需要 BlueField-4 硬件的可选附加层。来源：NVIDIA 新闻稿与技术博客。</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 331" width="680" height="331" role="img" aria-label="Artificial Analysis 智能指数。Gemini 4 Argon（high） 53；GPT-6 Astra（max） 53；GPT-6.1 Sol（max） 52；Gemini 3.8 Flash（high） 41；Gemini 3.1 Pro Preview 30" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="330" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">Artificial Analysis 智能指数</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">综合 10 项评测的指数得分，越高越好；括号内为推理强度</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">Gemini 4 Argon</text>
+<rect x="152.50000000000003" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="170.5" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">对照模型</text>
+<g><title>Gemini 4 Argon（high）：53</title>
+<path d="M196.2,122.0 h431.2 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-431.2 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">Gemini 4 Argon（high）</text>
+<text x="639.4" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">53</text>
+<g><title>GPT-6 Astra（max）：53</title>
+<path d="M196.2,156.0 h431.2 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-431.2 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">GPT-6 Astra（max）</text>
+<text x="639.4" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">53</text>
+<g><title>GPT-6.1 Sol（max）：52</title>
+<path d="M196.2,190.0 h423.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-423.0 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">GPT-6.1 Sol（max）</text>
+<text x="631.2" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">52</text>
+<g><title>Gemini 3.8 Flash（high）：41</title>
+<path d="M196.2,224.0 h332.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-332.7 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="237.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Gemini 3.8 Flash（high）</text>
+<text x="540.9" y="237.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">41</text>
+<g><title>Gemini 3.1 Pro Preview：30</title>
+<path d="M196.2,258.0 h242.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-242.4 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="271.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Gemini 3.1 Pro Preview</text>
+<text x="450.6" y="271.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">30</text>
+<line x1="196.22000000000006" y1="114" x2="196.22000000000006" y2="284" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="307.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">第三方评测，指数 v4.3.2；Gemini 3.8 Flash 按原文「Argon 领先 12 分」推算。来源：Artificial Analysis。</text>
+</svg>

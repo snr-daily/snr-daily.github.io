@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 544" width="680" height="544" role="img" aria-label="CLM 怎样管理自己的上下文。上下文镜像成文件 → 模型自由编辑 → 改动同步回上下文 → 扩展到多 Agent → 服务端复用后缀缓存" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="543" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">CLM 怎样管理自己的上下文</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">根据论文第 1 节整理</text>
+<rect x="24" y="94.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="118.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="122.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">1</text>
+<text x="70.0" y="123.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">上下文镜像成文件</text>
+<text x="70.0" y="143.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">把模型的上下文同步到一块模型有写权限的存储空间。</text>
+<line x1="47" y1="160.0" x2="47" y2="174.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,170.0 L47,176.0 L51,170.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="179.0" width="632" height="63" rx="8" fill="#eaf2fd" stroke="#2a78d6" stroke-width="1"/>
+<circle cx="47" cy="203.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="207.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">2</text>
+<text x="70.0" y="208.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">模型自由编辑</text>
+<text x="70.0" y="228.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">可以照常追加新 token，也可以用 Bash 任意改写、删除或重排文件内容。</text>
+<line x1="47" y1="245.0" x2="47" y2="259.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,255.0 L47,261.0 L51,255.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="264.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="288.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="292.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">3</text>
+<text x="70.0" y="293.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">改动同步回上下文</text>
+<text x="70.0" y="313.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">每次修改立刻生效，成为下一轮推理的实际上下文。</text>
+<line x1="47" y1="330.0" x2="47" y2="344.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,340.0 L47,346.0 L51,340.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="349.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="373.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="377.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">4</text>
+<text x="70.0" y="378.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">扩展到多 Agent</text>
+<text x="70.0" y="398.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">多个上下文文件并存，由模型为 Agent 集群或子 Agent 统一管理。</text>
+<line x1="47" y1="415.0" x2="47" y2="429.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,425.0 L47,431.0 L51,425.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="434.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="458.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="462.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">5</text>
+<text x="70.0" y="463.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">服务端复用后缀缓存</text>
+<text x="70.0" y="483.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">中间被改动后，复用前缀之外仍然有效的缓存，减少重新预填充。</text>
+<text x="24.0" y="520.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">普通语言模型只能在上下文末尾追加，压缩和检索由外部 harness 按固定规则完成。来源：arXiv 2609.37725。</text>
+</svg>

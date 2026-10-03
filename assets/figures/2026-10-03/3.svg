@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 399" width="680" height="399" role="img" aria-label="不同上下文管理方法的 SWE-bench Verified 通过率。固定阈值压缩（16K） 28.8%；不压缩（基座，256K） 30.4%；SWE-Compressor 31.0%；SelfCompact 31.7%；AutoCompact（仅 SFT） 32.2%；CompactionRL（16K） 32.7%；AutoCompact（SFT + RL） 39.6%" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="398" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">不同上下文管理方法的 SWE-bench Verified 通过率</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">同一基座模型和 harness，完整运行不设成本上限（%）</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">AutoCompact</text>
+<rect x="143.50000000000006" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="161.5" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">对照方法</text>
+<g><title>固定阈值压缩（16K）：28.8%</title>
+<path d="M211.6,122.0 h286.8 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-286.8 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">固定阈值压缩（16K）</text>
+<text x="510.4" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">28.8%</text>
+<g><title>不压缩（基座，256K）：30.4%</title>
+<path d="M211.6,156.0 h302.9 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-302.9 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">不压缩（基座，256K）</text>
+<text x="526.5" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">30.4%</text>
+<g><title>SWE-Compressor：31.0%</title>
+<path d="M211.6,190.0 h309.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-309.0 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">SWE-Compressor</text>
+<text x="532.6" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">31.0%</text>
+<g><title>SelfCompact：31.7%</title>
+<path d="M211.6,224.0 h316.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-316.0 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="237.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">SelfCompact</text>
+<text x="539.7" y="237.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">31.7%</text>
+<g><title>AutoCompact（仅 SFT）：32.2%</title>
+<path d="M211.6,258.0 h321.1 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-321.1 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="271.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">AutoCompact（仅 SFT）</text>
+<text x="544.7" y="271.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">32.2%</text>
+<g><title>CompactionRL（16K）：32.7%</title>
+<path d="M211.6,292.0 h326.1 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-326.1 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="305.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">CompactionRL（16K）</text>
+<text x="549.8" y="305.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">32.7%</text>
+<g><title>AutoCompact（SFT + RL）：39.6%</title>
+<path d="M211.6,326.0 h395.8 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-395.8 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="339.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">AutoCompact（SFT + RL）</text>
+<text x="619.4" y="339.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">39.6%</text>
+<line x1="211.61000000000007" y1="114" x2="211.61000000000007" y2="352" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="375.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">基座模型 Qwen3-Coder-30B-A3B-Instruct，三次运行平均。来源：论文 arXiv 2610.02163 表 1。</text>
+</svg>

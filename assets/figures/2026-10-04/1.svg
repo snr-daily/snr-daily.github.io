@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 399" width="680" height="399" role="img" aria-label="各家分词器在德语网页文本上的压缩率。Kolibri（12.8 万词表） 4.90；GPT-5 4.35；Qwen3.5-3.8 4.17；Gemini 4.13；GLM 5.3 3.93；DeepSeek V4 3.72；Kimi K3 3.28" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="398" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">各家分词器在德语网页文本上的压缩率</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">平均每个 token 对应的字节数，越高越省 token</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">Kolibri</text>
+<rect x="105.25" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="123.2" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">其他模型的分词器</text>
+<g><title>Kolibri（12.8 万词表）：4.90</title>
+<path d="M181.4,122.0 h434.6 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-434.6 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">Kolibri（12.8 万词表）</text>
+<text x="628.0" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">4.90</text>
+<g><title>GPT-5：4.35</title>
+<path d="M181.4,156.0 h385.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-385.4 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">GPT-5</text>
+<text x="578.8" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">4.35</text>
+<g><title>Qwen3.5-3.8：4.17</title>
+<path d="M181.4,190.0 h369.3 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-369.3 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Qwen3.5-3.8</text>
+<text x="562.7" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">4.17</text>
+<g><title>Gemini：4.13</title>
+<path d="M181.4,224.0 h365.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-365.7 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="237.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Gemini</text>
+<text x="559.1" y="237.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">4.13</text>
+<g><title>GLM 5.3：3.93</title>
+<path d="M181.4,258.0 h347.8 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-347.8 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="271.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">GLM 5.3</text>
+<text x="541.2" y="271.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">3.93</text>
+<g><title>DeepSeek V4：3.72</title>
+<path d="M181.4,292.0 h329.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-329.0 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="305.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">DeepSeek V4</text>
+<text x="522.4" y="305.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">3.72</text>
+<g><title>Kimi K3：3.28</title>
+<path d="M181.4,326.0 h289.6 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-289.6 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="339.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Kimi K3</text>
+<text x="483.0" y="339.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">3.28</text>
+<line x1="181.37000000000003" y1="114" x2="181.37000000000003" y2="352" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="375.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">测试语料为 FineWeb-2 德语网页文本。Aleph Alpha 自测数据，来源为其 Kolibri 发布博客。</text>
+</svg>

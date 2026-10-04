@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 331" width="680" height="331" role="img" aria-label="GraphForge 数据微调前后的 SpreadsheetBench II 成绩。Qwen3.6-35B-A3B · 微调前 2.8%；Qwen3.6-35B-A3B · 微调后 19.3%；Qwen3.6-27B · 微调前 10.3%；Qwen3.6-27B · 微调后 24.0%；Claude Opus 5（参照） 33.6%" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="330" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">GraphForge 数据微调前后的 SpreadsheetBench II 成绩</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">执行准确率（%），Claude Code 框架</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">GraphForge 微调后</text>
+<rect x="178.00000000000003" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="196.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">微调前与参照</text>
+<g><title>Qwen3.6-35B-A3B · 微调前：2.8%</title>
+<path d="M210.3,122.0 h29.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-29.4 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Qwen3.6-35B-A3B · 微调前</text>
+<text x="251.7" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">2.8%</text>
+<g><title>Qwen3.6-35B-A3B · 微调后：19.3%</title>
+<path d="M210.3,156.0 h226.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-226.4 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">Qwen3.6-35B-A3B · 微调后</text>
+<text x="448.7" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">19.3%</text>
+<g><title>Qwen3.6-27B · 微调前：10.3%</title>
+<path d="M210.3,190.0 h119.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-119.0 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Qwen3.6-27B · 微调前</text>
+<text x="341.2" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">10.3%</text>
+<g><title>Qwen3.6-27B · 微调后：24.0%</title>
+<path d="M210.3,224.0 h282.5 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-282.5 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="237.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">Qwen3.6-27B · 微调后</text>
+<text x="504.8" y="237.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">24.0%</text>
+<g><title>Claude Opus 5（参照）：33.6%</title>
+<path d="M210.3,258.0 h397.2 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-397.2 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="271.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Claude Opus 5（参照）</text>
+<text x="619.4" y="271.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">33.6%</text>
+<line x1="210.26000000000005" y1="114" x2="210.26000000000005" y2="284" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="307.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">微调只用 SFT，不含后续拒绝采样微调。来源为论文 arXiv 2609.38923 表 2。</text>
+</svg>

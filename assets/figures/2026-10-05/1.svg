@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 382" width="680" height="382" role="img" aria-label="翻译指令遵循得分（instTrans IFscore）。Index-Translate-35B-A3B 0.834；GPT-5.6-Sol 0.762；Hy-MT2-30B-A3B 0.642；DeepSeek-V4.1-Flash 0.637；Qwen3.5-35B-A3B 0.520；TranslateGemma-12B 0.307" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="381" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">翻译指令遵循得分（instTrans IFscore）</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">0 到 1，越高越好，由 GPT-5.6-Sol 评判</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">Index-Translate-35B-A3B 预览版</text>
+<rect x="269.7500000000001" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="287.8" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">对比系统</text>
+<g><title>Index-Translate-35B-A3B：0.834</title>
+<path d="M215.4,122.0 h393.3 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-393.3 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">Index-Translate-35B-A3B</text>
+<text x="620.7" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">0.834</text>
+<g><title>GPT-5.6-Sol：0.762</title>
+<path d="M215.4,156.0 h359.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-359.4 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">GPT-5.6-Sol</text>
+<text x="586.8" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">0.762</text>
+<g><title>Hy-MT2-30B-A3B：0.642</title>
+<path d="M215.4,190.0 h301.8 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-301.8 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Hy-MT2-30B-A3B</text>
+<text x="529.2" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">0.642</text>
+<g><title>DeepSeek-V4.1-Flash：0.637</title>
+<path d="M215.4,224.0 h299.8 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-299.8 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="237.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">DeepSeek-V4.1-Flash</text>
+<text x="527.2" y="237.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">0.637</text>
+<g><title>Qwen3.5-35B-A3B：0.520</title>
+<path d="M215.4,258.0 h244.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-244.0 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="271.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Qwen3.5-35B-A3B</text>
+<text x="471.4" y="271.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">0.520</text>
+<g><title>TranslateGemma-12B：0.307</title>
+<path d="M215.4,292.0 h142.2 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-142.2 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="305.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">TranslateGemma-12B</text>
+<text x="369.6" y="305.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">0.307</text>
+<line x1="215.39000000000007" y1="114" x2="215.39000000000007" y2="318" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="341.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">instTrans 包含 3,000 条中文译成 20 种语言的带约束任务。数据来源为 Index-Translate-35B-A3B-preview 模型卡，</text>
+<text x="24.0" y="358.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">转引自其技术报告。</text>
+</svg>

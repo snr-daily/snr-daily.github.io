@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 263" width="680" height="263" role="img" aria-label="arXiv 每年 9 月的单月投稿量。2016 年 9 月 9,869；2024 年 9 月 20,569；2026 年 9 月 40,363" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="262" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">arXiv 每年 9 月的单月投稿量</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">篇，同为 9 月份</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">2026 年 9 月</text>
+<rect x="136.0" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="154.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">往年同月</text>
+<g><title>2016 年 9 月：9,869</title>
+<path d="M115.8,122.0 h115.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-115.7 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">2016 年 9 月</text>
+<text x="243.5" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">9,869</text>
+<g><title>2024 年 9 月：20,569</title>
+<path d="M115.8,156.0 h245.5 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-245.5 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">2024 年 9 月</text>
+<text x="373.3" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">20,569</text>
+<g><title>2026 年 9 月：40,363</title>
+<path d="M115.8,190.0 h485.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-485.7 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">2026 年 9 月</text>
+<text x="613.4" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">40,363</text>
+<line x1="115.75999999999999" y1="114" x2="115.75999999999999" y2="216" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="239.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">数据来源为 arXiv 官方博客 10 月 1 日的限流政策公告。</text>
+</svg>

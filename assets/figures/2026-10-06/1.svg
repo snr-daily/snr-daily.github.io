@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 263" width="680" height="263" role="img" aria-label="SWE-bench Verified 得分（Reflection 自报）。Beam 80.9；Inkling 77.6；Nemotron 3 Ultra 70.7" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="262" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">SWE-bench Verified 得分（Reflection 自报）</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">分，越高越好；只列三方都报告了该项的模型</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">Beam</text>
+<rect x="93.25" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="111.2" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">对照模型</text>
+<g><title>Beam：80.9</title>
+<path d="M151.9,122.0 h464.1 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-464.1 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">Beam</text>
+<text x="628.0" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">80.9</text>
+<g><title>Inkling：77.6</title>
+<path d="M151.9,156.0 h445.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-445.0 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Inkling</text>
+<text x="608.9" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">77.6</text>
+<g><title>Nemotron 3 Ultra：70.7</title>
+<path d="M151.9,190.0 h405.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-405.0 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Nemotron 3 Ultra</text>
+<text x="569.0" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">70.7</text>
+<line x1="151.94000000000005" y1="114" x2="151.94000000000005" y2="216" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="239.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">数据来自 Reflection 博客的基准表，对照模型分数由 Reflection 引自第三方，均未经独立复现。</text>
+</svg>

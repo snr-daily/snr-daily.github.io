@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 263" width="680" height="263" role="img" aria-label="改写比例对 textGrain 检出率的影响。不替换 约 92%；替换 10% 的词 约 66%；替换 25% 的词 约 17%" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="262" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">改写比例对 textGrain 检出率的影响</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">400 token 文本的检出率</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">未改写</text>
+<rect x="101.5" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="119.5" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">部分词替换为同义词</text>
+<g><title>不替换：约 92%</title>
+<path d="M124.7,122.0 h477.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-477.0 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">不替换</text>
+<text x="613.7" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">约 92%</text>
+<g><title>替换 10% 的词：约 66%</title>
+<path d="M124.7,156.0 h341.1 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-341.1 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">替换 10% 的词</text>
+<text x="477.8" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">约 66%</text>
+<g><title>替换 25% 的词：约 17%</title>
+<path d="M124.7,190.0 h84.9 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-84.9 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">替换 25% 的词</text>
+<text x="221.6" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">约 17%</text>
+<line x1="124.67" y1="114" x2="124.67" y2="216" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="239.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">数据为 OpenAI 公布的内部测试结果，经 The Decoder 转述；OpenAI 原文页面无法直接读取。</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 629" width="680" height="629" role="img" aria-label="GitHub 新 Git 架构的推送路径。接收推送 → 并行处理 → 引用更新 → 持久化存储 → 缓存读取 → 后台维护" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="628" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">GitHub 新 Git 架构的推送路径</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">只把需要一致性的引用更新留在关键路径上</text>
+<rect x="24" y="94.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="118.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="122.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">1</text>
+<text x="70.0" y="123.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">接收推送</text>
+<text x="70.0" y="143.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">计算节点接收对象数据，不再需要写入多台文件服务器的完整副本</text>
+<line x1="47" y1="160.0" x2="47" y2="174.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,170.0 L47,176.0 L51,170.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="179.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="203.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="207.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">2</text>
+<text x="70.0" y="208.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">并行处理</text>
+<text x="70.0" y="228.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">对象存储、连通性校验、密钥扫描与其他写入并行进行</text>
+<line x1="47" y1="245.0" x2="47" y2="259.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,255.0 L47,261.0 L51,255.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="264.0" width="632" height="63" rx="8" fill="#eaf2fd" stroke="#2a78d6" stroke-width="1"/>
+<circle cx="47" cy="288.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="292.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">3</text>
+<text x="70.0" y="293.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">引用更新</text>
+<text x="70.0" y="313.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">唯一需要协调一致的一步，完成后即可确认推送</text>
+<line x1="47" y1="330.0" x2="47" y2="344.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,340.0 L47,346.0 L51,340.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="349.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="373.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="377.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">4</text>
+<text x="70.0" y="378.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">持久化存储</text>
+<text x="70.0" y="398.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">权威数据写入 Azure Blob Storage，由其负责持久性和复制</text>
+<line x1="47" y1="415.0" x2="47" y2="429.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,425.0 L47,431.0 L51,425.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="434.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="458.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="462.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">5</text>
+<text x="70.0" y="463.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">缓存读取</text>
+<text x="70.0" y="483.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">轻量计算节点按需缓存数据，承接 CI 和 Agent 的大量拉取</text>
+<line x1="47" y1="500.0" x2="47" y2="514.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,510.0 L47,516.0 L51,510.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="519.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="543.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="547.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">6</text>
+<text x="70.0" y="548.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">后台维护</text>
+<text x="70.0" y="568.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">压缩和垃圾回收由独立节点直接对存储层执行</text>
+<text x="24.0" y="605.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">根据 GitHub 工程博客 10 月 6 日文章的设计原则整理，具体实现细节 GitHub 尚未公布。</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 263" width="680" height="263" role="img" aria-label="CyScenarioBench 上 Opus 5.5 完成的任务数。通用版 0 / 50；防御档 4 / 50；红队档 34 / 50" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="262" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">CyScenarioBench 上 Opus 5.5 完成的任务数</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">10 道多阶段攻击场景，每题 5 次，共 50 次</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">红队档</text>
+<rect x="101.5" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="119.5" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">其他档位</text>
+<g><title>通用版：0 / 50</title>
+<path d="M78.5,122.0 h0.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h0.0 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">通用版</text>
+<text x="90.5" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">0 / 50</text>
+<g><title>防御档：4 / 50</title>
+<path d="M78.5,156.0 h57.5 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-57.5 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">防御档</text>
+<text x="148.0" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">4 / 50</text>
+<g><title>红队档：34 / 50</title>
+<path d="M78.5,190.0 h518.8 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-518.8 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">红队档</text>
+<text x="609.3" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">34 / 50</text>
+<line x1="78.5" y1="114" x2="78.5" y2="216" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="239.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">数据来自 Anthropic 10 月 6 日公告。通用版每次都在第一条指令就被拦截，红队档全程没有拦截。</text>
+</svg>

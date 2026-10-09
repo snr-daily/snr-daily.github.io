@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 297" width="680" height="297" role="img" aria-label="T3 Code 五个项目的类型检查总耗时。bun check 4.07 s；ts-rust 7.25 s；tsc 7（Go） 16.10 s；tsc 6 62.63 s" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="296" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">T3 Code 五个项目的类型检查总耗时</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">不含 Effect 诊断，秒，越低越快</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">ts-rust（本项目）</text>
+<rect x="175.5" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="193.5" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">其他检查器</text>
+<g><title>bun check：4.07 s</title>
+<path d="M116.0,122.0 h27.5 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-27.5 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">bun check</text>
+<text x="155.6" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">4.07 s</text>
+<g><title>ts-rust：7.25 s</title>
+<path d="M116.0,156.0 h52.2 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-52.2 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">ts-rust</text>
+<text x="180.2" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">7.25 s</text>
+<g><title>tsc 7（Go）：16.10 s</title>
+<path d="M116.0,190.0 h120.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-120.7 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">tsc 7（Go）</text>
+<text x="248.8" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">16.10 s</text>
+<g><title>tsc 6：62.63 s</title>
+<path d="M116.0,224.0 h481.2 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-481.2 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="237.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">tsc 6</text>
+<text x="609.3" y="237.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">62.63 s</text>
+<line x1="116.02999999999999" y1="114" x2="116.02999999999999" y2="250" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="273.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">数据来自 ts-rust 仓库 README 的基准表，为五个 T3 Code 项目的耗时之和。</text>
+</svg>

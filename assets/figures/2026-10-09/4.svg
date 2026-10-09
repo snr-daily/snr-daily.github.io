@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 246" width="680" height="246" role="img" aria-label="阿拉伯语六个测试集的平均词错率。榜单此前最好 23.17%；Falcon-ASR 20.92%" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="245" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">阿拉伯语六个测试集的平均词错率</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">WER，%，越低越好</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">Falcon-ASR</text>
+<rect x="136.0" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="154.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">榜单此前最好成绩</text>
+<g><title>榜单此前最好：23.17%</title>
+<path d="M119.0,122.0 h481.1 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-481.1 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">榜单此前最好</text>
+<text x="612.1" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">23.17%</text>
+<g><title>Falcon-ASR：20.92%</title>
+<path d="M119.0,156.0 h434.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-434.0 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">Falcon-ASR</text>
+<text x="565.0" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">20.92%</text>
+<line x1="119.0" y1="114" x2="119.0" y2="182" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="205.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">数据来自 TII 10 月 7 日的 Hugging Face 博客，按公开阿拉伯语榜单协议、六个测试集等权平均，竞品为 9 月 30 日核对</text>
+<text x="24.0" y="222.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">的榜单公开值。</text>
+</svg>

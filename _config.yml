@@ -13,3 +13,4 @@ minima:
   date_format: "%Y-%m-%d"
 exclude:
   - README.md
+  - AGENTS.md

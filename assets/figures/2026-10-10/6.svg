@@ -1,21 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 229" width="680" height="229" role="img" aria-label="最大 H100 集群的排队等待中位数。旧的优先级调度 5 分钟；新的预算加公平份额调度 24 秒" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
-<rect x="0.5" y="0.5" width="679" height="228" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
-<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">最大 H100 集群的排队等待中位数</text>
-<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">条形长度按秒计，越短越好</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 263" width="680" height="263" role="img" aria-label="浏览器 Agent 每次运行的估计模型成本。Model B 原设置（下界） ≥36.21 美元；Model B 优化后 1.24 美元；GPT-6.1 Sol 优化后 0.47 美元" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="262" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">浏览器 Agent 每次运行的估计模型成本</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">美元，越低越好；模型和流程均有变化</text>
 <rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
-<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">新调度器</text>
-<rect x="114.0" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
-<text x="132.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">旧调度器</text>
-<g><title>旧的优先级调度：5 分钟</title>
-<path d="M186.5,122.0 h418.1 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-418.1 z" fill="#86b6ef"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">优化后的 GPT-6.1 Sol</text>
+<rect x="191.00000000000006" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="209.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">Model B 对照</text>
+<g><title>Model B 原设置（下界）：≥36.21 美元</title>
+<path d="M186.0,122.0 h385.3 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-385.3 z" fill="#86b6ef"/>
 </g>
-<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">旧的优先级调度</text>
-<text x="616.6" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">5 分钟</text>
-<g><title>新的预算加公平份额调度：24 秒</title>
-<path d="M186.5,156.0 h29.8 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-29.8 z" fill="#2a78d6"/>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Model B 原设置（下界）</text>
+<text x="583.3" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">≥36.21 美元</text>
+<g><title>Model B 优化后：1.24 美元</title>
+<path d="M186.0,156.0 h9.3 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-9.3 z" fill="#86b6ef"/>
 </g>
-<text x="24.0" y="169.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">新的预算加公平份额调度</text>
-<text x="228.3" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">24 秒</text>
-<line x1="186.5" y1="114" x2="186.5" y2="182" stroke="#c3c2b7" stroke-width="1"/>
-<text x="24.0" y="205.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">数据来自 Ai2 10 月 9 日的 Hugging Face 博客，为最大 H100 集群在新旧调度器下的排队等待中位数。</text>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Model B 优化后</text>
+<text x="207.3" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">1.24 美元</text>
+<g><title>GPT-6.1 Sol 优化后：0.47 美元</title>
+<path d="M186.0,190.0 h1.1 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-1.1 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">GPT-6.1 Sol 优化后</text>
+<text x="199.0" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">0.47 美元</text>
+<line x1="185.96" y1="114" x2="185.96" y2="216" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="239.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">OpenAI 与 Asana 案例，演示目录任务，每组重复三次。基线含未完成运行，36.21 为下界。</text>
 </svg>

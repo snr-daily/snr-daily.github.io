@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 263" width="680" height="263" role="img" aria-label="SWE-Bench Verified 得分。MAI Code 1.1 Flash 云端原版 72.6%；MAI Code 1.1 Flash 本地量化版 70.8%；GPT-OSS-120B（GGUF） 32.0%" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="262" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">SWE-Bench Verified 得分</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">500 题，%，越高越好</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">本地量化版</text>
+<rect x="126.5" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="144.5" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">对照</text>
+<g><title>MAI Code 1.1 Flash 云端原版：72.6%</title>
+<path d="M236.5,122.0 h371.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-371.0 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">MAI Code 1.1 Flash 云端原版</text>
+<text x="619.4" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">72.6%</text>
+<g><title>MAI Code 1.1 Flash 本地量化版：70.8%</title>
+<path d="M236.5,156.0 h361.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-361.7 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">MAI Code 1.1 Flash 本地量化版</text>
+<text x="610.1" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">70.8%</text>
+<g><title>GPT-OSS-120B（GGUF）：32.0%</title>
+<path d="M236.5,190.0 h161.3 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-161.3 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">GPT-OSS-120B（GGUF）</text>
+<text x="409.7" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">32.0%</text>
+<line x1="236.45000000000007" y1="114" x2="236.45000000000007" y2="216" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="239.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">数据来自微软 Command Line 博客，10 月 5 日测试，本地版约 3.3 bit/权重量化。均为微软自测。</text>
+</svg>

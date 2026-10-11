@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 355" width="680" height="355" role="img" aria-label="Anthropic 报告中的改进措施。离线评估 → 工具防护与监测 → 环境与训练调整" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="354" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">Anthropic 报告中的改进措施</text>
+<rect x="24" y="75.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="99.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="103.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">1</text>
+<text x="70.0" y="104.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">离线评估</text>
+<text x="70.0" y="124.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">暂停所有内部评估的实时联网</text>
+<line x1="47" y1="141.0" x2="47" y2="155.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,151.0 L47,157.0 L51,151.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="160.0" width="632" height="63" rx="8" fill="#eaf2fd" stroke="#2a78d6" stroke-width="1"/>
+<circle cx="47" cy="184.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="188.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">2</text>
+<text x="70.0" y="189.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">工具防护与监测</text>
+<text x="70.0" y="209.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">加强抓取限制，检测并阻断异常行为</text>
+<line x1="47" y1="226.0" x2="47" y2="240.0" stroke="#898781" stroke-width="1.5"/>
+<path d="M43,236.0 L47,242.0 L51,236.0" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="24" y="245.0" width="632" height="63" rx="8" fill="#f3f2ee"/>
+<circle cx="47" cy="269.0" r="11" fill="#2a78d6"/>
+<text x="47.0" y="273.5" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">3</text>
+<text x="70.0" y="274.0" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">环境与训练调整</text>
+<text x="70.0" y="294.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">集中管理 Agent，修正奖励绕过限制的环境</text>
+<text x="24.0" y="331.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">依据 10 月 9 日原文整理的措施分组，不表示已经消除全部风险。</text>
+</svg>

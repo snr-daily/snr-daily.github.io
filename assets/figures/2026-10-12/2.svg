@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 229" width="680" height="229" role="img" aria-label="作者留出样本上的决策准确率。微调前 725/1221 · 59.38%；微调后 762/1221 · 62.41%" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="228" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">作者留出样本上的决策准确率</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">CommonsenseQA，1221 条样本，%</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">微调后</text>
+<rect x="101.5" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="119.5" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">微调前</text>
+<g><title>微调前：725/1221 · 59.38%</title>
+<path d="M78.5,122.0 h425.9 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-425.9 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">微调前</text>
+<text x="516.4" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">725/1221 · 59.38%</text>
+<g><title>微调后：762/1221 · 62.41%</title>
+<path d="M78.5,156.0 h447.8 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-447.8 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">微调后</text>
+<text x="538.3" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">762/1221 · 62.41%</text>
+<line x1="78.5" y1="114" x2="78.5" y2="182" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="205.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">作者 10 月 10 日教程自报，未复跑；准确率提升不等于校准已可靠，也不与 JevBench 对比。</text>
+</svg>

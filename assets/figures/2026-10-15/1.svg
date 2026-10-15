@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 229" width="680" height="229" role="img" aria-label="Grok Voice：语音综合指数。Grok Voice 2.0 81.3；Grok Voice 3.0 86.9" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="228" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">Grok Voice：语音综合指数</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">AA Speech-to-Speech Index，越高越好；不是百分比</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">Voice 3.0</text>
+<rect x="119.25" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="137.2" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">Voice 2.0</text>
+<g><title>Grok Voice 2.0：81.3</title>
+<path d="M133.6,122.0 h451.1 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-451.1 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Grok Voice 2.0</text>
+<text x="596.7" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">81.3</text>
+<g><title>Grok Voice 3.0：86.9</title>
+<path d="M133.6,156.0 h482.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-482.4 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">Grok Voice 3.0</text>
+<text x="628.0" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">86.9</text>
+<line x1="133.58000000000004" y1="114" x2="133.58000000000004" y2="182" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="205.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">发布公告引用 Artificial Analysis 10 月 13 日数据；未独立复跑。</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 263" width="680" height="263" role="img" aria-label="中等规模编码器：BEIR 检索得分。ModernBERT 395M 45.2；Ettin Encoder 395M 45.9；UltraBERT 380M 47.7" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="262" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">中等规模编码器：BEIR 检索得分</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">作者同组微调评测，越高越好</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">UltraBERT</text>
+<rect x="130.25" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="148.2" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">其他编码器</text>
+<g><title>ModernBERT 395M：45.2</title>
+<path d="M168.4,122.0 h423.9 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-423.9 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">ModernBERT 395M</text>
+<text x="604.3" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">45.2</text>
+<g><title>Ettin Encoder 395M：45.9</title>
+<path d="M168.4,156.0 h430.5 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-430.5 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Ettin Encoder 395M</text>
+<text x="611.0" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">45.9</text>
+<g><title>UltraBERT 380M：47.7</title>
+<path d="M168.4,190.0 h447.6 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-447.6 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">UltraBERT 380M</text>
+<text x="628.0" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">47.7</text>
+<line x1="168.41000000000005" y1="114" x2="168.41000000000005" y2="216" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="239.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">DMIS：骨干在 MS MARCO 上按相同搜索流程微调；非现成向量模型比较。</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 263" width="680" height="263" role="img" aria-label="不同职业大类的评测覆盖差异。计算机与数学 80.6% · 29/36；科学 25.0% · 15/60；医疗专业 13.5% · 12/89" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="262" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">不同职业大类的评测覆盖差异</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">有至少一项任务达标的职业占比；不是模型准确率</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">计算机与数学</text>
+<rect x="139.0" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="157.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">对照项</text>
+<g><title>计算机与数学：80.6% · 29/36</title>
+<path d="M119.0,122.0 h436.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-436.4 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">计算机与数学</text>
+<text x="567.4" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">80.6% · 29/36</text>
+<g><title>科学：25.0% · 15/60</title>
+<path d="M119.0,156.0 h132.6 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-132.6 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">科学</text>
+<text x="263.6" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">25.0% · 15/60</text>
+<g><title>医疗专业：13.5% · 12/89</title>
+<path d="M119.0,190.0 h69.8 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-69.8 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">医疗专业</text>
+<text x="200.8" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">13.5% · 12/89</text>
+<line x1="119.0" y1="114" x2="119.0" y2="216" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="239.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">据 Mercor 首批 29 项基准计算；任务至少映射 5 道题才达标，不代表全部任务均被覆盖。</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 229" width="680" height="229" role="img" aria-label="Atria Dawn：官方 JobBench 结果。正式版 57.5；Preview 50.3" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="228" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">Atria Dawn：官方 JobBench 结果</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">同一结果表中的分数；越高越好</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">正式版</text>
+<rect x="101.5" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="119.5" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">Preview</text>
+<g><title>正式版：57.5</title>
+<path d="M89.0,122.0 h527.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-527.0 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">正式版</text>
+<text x="628.0" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">57.5</text>
+<g><title>Preview：50.3</title>
+<path d="M89.0,156.0 h460.5 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-460.5 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Preview</text>
+<text x="561.5" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">50.3</text>
+<line x1="89.03" y1="114" x2="89.03" y2="182" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="205.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">来源为 Atria 官方仓库；提高 7.2 分，不是全部基准平均值，也未独立复测。</text>
+</svg>

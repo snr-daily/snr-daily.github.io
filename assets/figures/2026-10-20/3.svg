@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 263" width="680" height="263" role="img" aria-label="意大利语工具调用：50 例小样本得分。Nesso3 38 / 50；Nesso2 35 / 50；Qwen3-0.6B 非思考 29 / 50" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="262" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">意大利语工具调用：50 例小样本得分</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">通过用例数；不是通用模型能力排行</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">Nesso3</text>
+<rect x="107.25" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="125.2" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">对照项</text>
+<g><title>Nesso3：38 / 50</title>
+<path d="M157.9,122.0 h439.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-439.4 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">Nesso3</text>
+<text x="609.3" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">38 / 50</text>
+<g><title>Nesso2：35 / 50</title>
+<path d="M157.9,156.0 h404.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-404.4 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Nesso2</text>
+<text x="574.3" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">35 / 50</text>
+<g><title>Qwen3-0.6B 非思考：29 / 50</title>
+<path d="M157.9,190.0 h334.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-334.4 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Qwen3-0.6B 非思考</text>
+<text x="504.3" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">29 / 50</text>
+<line x1="157.88" y1="114" x2="157.88" y2="216" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="239.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">作者自建测试、各模型原生格式、贪心解码；单轮小样本，未独立复跑。</text>
+</svg>

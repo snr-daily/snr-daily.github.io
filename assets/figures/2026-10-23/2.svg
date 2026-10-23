@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 229" width="680" height="229" role="img" aria-label="Granite 集成：汇总点预测误差。默认概率集成 0.683；最佳单成员 r2 0.685" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="228" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">Granite 集成：汇总点预测误差</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">MASE，越低越好；97 个 GIFT-Eval 配置</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">默认概率集成</text>
+<rect x="139.0" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="157.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">对照项</text>
+<g><title>默认概率集成：0.683</title>
+<path d="M124.9,122.0 h482.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-482.4 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">默认概率集成</text>
+<text x="619.3" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">0.683</text>
+<g><title>最佳单成员 r2：0.685</title>
+<path d="M124.9,156.0 h483.8 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-483.8 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">最佳单成员 r2</text>
+<text x="620.7" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">0.685</text>
+<line x1="124.94000000000001" y1="114" x2="124.94000000000001" y2="182" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="205.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">10 月 20 日榜单快照，22 日发布说明；差距很小，单成员概率误差更低，未独立复跑。</text>
+</svg>

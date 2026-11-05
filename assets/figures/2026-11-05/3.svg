@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 244" width="680" height="244" role="img" aria-label="文档字段抽取综合分。Dharma Field Extractor 0.834；Claude Opus 5 0.816；GPT-5.6 Luna 0.741" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="243" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">文档字段抽取综合分</text>
+<rect x="24" y="65" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="75.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">本期关注</text>
+<rect x="114.0" y="65" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="132.0" y="75.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">对照</text>
+<g><title>Dharma Field Extractor：0.834</title>
+<path d="M195.4,103.0 h413.3 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-413.3 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="116.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">Dharma Field Extractor</text>
+<text x="620.7" y="116.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">0.834</text>
+<g><title>Claude Opus 5：0.816</title>
+<path d="M195.4,137.0 h404.3 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-404.3 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="150.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Claude Opus 5</text>
+<text x="611.7" y="150.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">0.816</text>
+<g><title>GPT-5.6 Luna：0.741</title>
+<path d="M195.4,171.0 h366.8 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-366.8 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="184.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">GPT-5.6 Luna</text>
+<text x="574.2" y="184.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">0.741</text>
+<line x1="195.41000000000008" y1="95" x2="195.41000000000008" y2="197" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="220.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">作者评测的部分对照。综合分含字段匹配、值相似度和有效 JSON 比例。</text>
+</svg>

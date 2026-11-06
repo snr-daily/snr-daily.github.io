@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 210" width="680" height="210" role="img" aria-label="官方 ExploitGym 任务得分。GPT‑5.6 Cyber 32.1%；GPT‑6 Cyber 48.5%" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="209" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">官方 ExploitGym 任务得分</text>
+<rect x="24" y="65" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="75.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">本期关注</text>
+<rect x="114.0" y="65" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="132.0" y="75.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">对照</text>
+<g><title>GPT‑5.6 Cyber：32.1%</title>
+<path d="M135.2,103.0 h311.2 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-311.2 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="116.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">GPT‑5.6 Cyber</text>
+<text x="458.4" y="116.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">32.1%</text>
+<g><title>GPT‑6 Cyber：48.5%</title>
+<path d="M135.2,137.0 h472.2 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-472.2 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="150.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">GPT‑6 Cyber</text>
+<text x="619.4" y="150.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">48.5%</text>
+<line x1="135.20000000000002" y1="95" x2="135.20000000000002" y2="163" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="186.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">OpenAI 发布页数据。特定网络安全评测，相差 16.4 个百分点。</text>
+</svg>

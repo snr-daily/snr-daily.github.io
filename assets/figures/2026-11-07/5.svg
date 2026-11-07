@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 229" width="680" height="229" role="img" aria-label="新增私有口音英语测试数据时长。埃及口音英语 1.34 小时；尼日利亚口音英语 1.55 小时" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="228" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">新增私有口音英语测试数据时长</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">小时</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">本期关注</text>
+<rect x="114.0" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="132.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">对照</text>
+<g><title>埃及口音英语：1.34 小时</title>
+<path d="M146.0,122.0 h379.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-379.7 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">埃及口音英语</text>
+<text x="537.7" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">1.34 小时</text>
+<g><title>尼日利亚口音英语：1.55 小时</title>
+<path d="M146.0,156.0 h439.8 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-439.8 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">尼日利亚口音英语</text>
+<text x="597.8" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">1.55 小时</text>
+<line x1="146.0" y1="114" x2="146.0" y2="182" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="205.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">Hugging Face 与 Liva AI 发布数据。均为自然对话语音，仅比较新增数据时长。</text>
+</svg>

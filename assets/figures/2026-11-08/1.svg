@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 263" width="680" height="263" role="img" aria-label="内部文档任务：知识页与搜索的组合结果。仅搜索 53%；仅知识页（最好结果） 48%；知识页 + 搜索（最终） 61%" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="262" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">内部文档任务：知识页与搜索的组合结果</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">满足评分标准的比例，25 道问题</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">本期关注</text>
+<rect x="114.0" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="132.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">对照</text>
+<g><title>仅搜索：53%</title>
+<path d="M175.7,122.0 h384.5 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-384.5 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">仅搜索</text>
+<text x="572.2" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">53%</text>
+<g><title>仅知识页（最好结果）：48%</title>
+<path d="M175.7,156.0 h347.9 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-347.9 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">仅知识页（最好结果）</text>
+<text x="535.6" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">48%</text>
+<g><title>知识页 + 搜索（最终）：61%</title>
+<path d="M175.7,190.0 h443.2 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-443.2 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">知识页 + 搜索（最终）</text>
+<text x="630.9" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">61%</text>
+<line x1="175.7" y1="114" x2="175.7" y2="216" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="239.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">Anthropic 报告；约 35 万份内部文档。知识页经过多轮整理，包含额外计算成本。</text>
+</svg>

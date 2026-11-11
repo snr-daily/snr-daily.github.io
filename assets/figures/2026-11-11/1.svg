@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 263" width="680" height="263" role="img" aria-label="GR00T 2 在同一组 50 项任务上的平均成功率。零样本，无微调 40%；一次示范并微调 71%；五次示范并微调 95%" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="262" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">GR00T 2 在同一组 50 项任务上的平均成功率</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">作者报告，百分比</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">五次示范并微调</text>
+<rect x="151.5" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="169.5" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">对照设置</text>
+<g><title>零样本，无微调：40%</title>
+<path d="M132.5,122.0 h202.5 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-202.5 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">零样本，无微调</text>
+<text x="347.0" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">40%</text>
+<g><title>一次示范并微调：71%</title>
+<path d="M132.5,156.0 h362.5 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-362.5 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">一次示范并微调</text>
+<text x="507.0" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">71%</text>
+<g><title>五次示范并微调：95%</title>
+<path d="M132.5,190.0 h486.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-486.4 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="203.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">五次示范并微调</text>
+<text x="630.9" y="203.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">95%</text>
+<line x1="132.5" y1="114" x2="132.5" y2="216" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="239.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">NVIDIA 项目页；同一目标机器人。数字是平均成功率，不是至少成功一次的任务比例。</text>
+</svg>

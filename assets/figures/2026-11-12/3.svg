@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 229" width="680" height="229" role="img" aria-label="录音版 Scribe v3 的相对词错误数。Scribe v2 100；Scribe v3 73" font-family="system-ui, -apple-system, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif">
+<rect x="0.5" y="0.5" width="679" height="228" rx="10" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<text x="24.0" y="41.0" font-size="17" font-weight="600" fill="#0b0b0b" text-anchor="start">录音版 Scribe v3 的相对词错误数</text>
+<text x="24.0" y="63.0" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">以 Scribe v2 为 100</text>
+<rect x="24" y="84" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="42.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">本期关注</text>
+<rect x="114.0" y="84" width="12" height="12" rx="3" fill="#86b6ef"/>
+<text x="132.0" y="94.0" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start">对照</text>
+<g><title>Scribe v2：100</title>
+<path d="M100.9,122.0 h519.2 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-519.2 z" fill="#86b6ef"/>
+</g>
+<text x="24.0" y="135.5" font-size="13.5" font-weight="400" fill="#0b0b0b" text-anchor="start">Scribe v2</text>
+<text x="632.2" y="135.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">100</text>
+<g><title>Scribe v3：73</title>
+<path d="M100.9,156.0 h378.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-378.0 z" fill="#2a78d6"/>
+</g>
+<text x="24.0" y="169.5" font-size="13.5" font-weight="600" fill="#0b0b0b" text-anchor="start">Scribe v3</text>
+<text x="490.9" y="169.5" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">73</text>
+<line x1="100.91" y1="114" x2="100.91" y2="182" stroke="#c3c2b7" stroke-width="1"/>
+<text x="24.0" y="205.0" font-size="11.5" font-weight="400" fill="#898781" text-anchor="start">由 ElevenLabs 公布的相对降幅 27% 换算。仅对应录音版对照测试。</text>
+</svg>
